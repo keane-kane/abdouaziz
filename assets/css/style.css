@@ -134,12 +134,12 @@ h6 {
 }
 
 #main {
-  margin-left: 300px;
+  margin-left: 200px;
 }
 
 @media (max-width: 1199px) {
   #header {
-    left: -300px;
+    left: -200px;
   }
 
   #main {
@@ -245,6 +245,7 @@ h6 {
   height: 100vh;
   background: url("../img/azizbk.jpeg")  top center;
   background-size: cover;
+ 
   
 }
 
@@ -263,7 +264,8 @@ h6 {
 #hero .hero-container {
   position: relative;
   z-index: 2;
-  min-width: 300px;
+  min-width: 500px;
+  margin-left: 20% !important;
 }
 
 #hero h1 {
@@ -317,6 +319,10 @@ section {
 
 .section-bg {
   background: #212431;
+  color: #fff !important;
+}
+.section-bg * {
+  color: #fff !important;
 }
 
 .section-title {
@@ -467,7 +473,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #149ddd;
+  background-color: #6a3a04;
 }
 
 /*--------------------------------------------------------------
